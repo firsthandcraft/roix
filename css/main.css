@@ -1,0 +1,103 @@
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+    padding: 10px 20px;
+}
+.header-logo a,.footer-logo a{
+    width:150px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    padding:0 20px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav.transparent {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.body-wrap{
+    position:relative;
+    background-image: url('../img/main_bg2.png'); /* 여기에 이미지 경로를 입력하세요 */
+    background-size: auto; /* 이미지를 화면 전체에 걸쳐 보이게 합니다 */
+    background-position: top; /* 이미지를 가운데 정렬합니다 */
+    background-repeat: no-repeat; /* 이미지가 반복되지 않도록 설정합니다 */
+}
+.content-wrap{
+    margin:84px 0;
+    padding:30px;
+    display:flex;
+    justify-content: space-between;
+    color:#fff;
+}
+.content-left{
+    width:55%;
+    padding:120px 30px;
+    font-size:46px;
+}
+.content-right{
+    width:55%;
+    padding:50px 10px;
+    font-size:18px;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0); /* 반투명 배경 (검은색 50% 투명도) */
+    padding:20px;
+    text-align: center;
+}
+.footer-logo{
+    display:flex;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer ul li {
+    color:#fff;
+    font-size:16px;
+}
+
+footer ul li.footer-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.address{
+    text-align: start;
+    flex-direction: column;
+    align-items: flex-start
+}
+footer a {
+    color: white; /* 링크 색상을 흰색으로 설정 */
+    text-decoration: none; /* 링크의 밑줄 제거 */
+}
+
+footer a:hover {
+    text-decoration: underline; /* 마우스 오버 시 밑줄 표시 */
+}
+

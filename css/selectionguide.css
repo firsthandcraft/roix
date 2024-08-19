@@ -1,0 +1,76 @@
+.periodictable{display:flex;width:100%;padding:0;margin:100px 0 0 0}
+.periodictable li.emptycol{visibility:hidden}
+.periodictable li.emptycol a{visibility:hidden}
+.periodictable .periodic_eyebrow{padding-bottom:24px;margin:0;font-size:14px}
+.p_table_col{display:flex;align-self:flex-end;width:5.55%}
+.p_table_col a{font-size:0;position:absolute;top:0;left:0;width:100%;height:100%}
+.p_table_col .emptycol span,.p_table_col .emptycol p{visibility:hidden}
+.p_table_col .emptycol div:hover{transform:scale(1)}
+.p_table_col ul{margin:0;padding:0;width:100%}
+.p_table_col ul li{list-style:none}
+.p_table_col ul li a{font-size:0}
+.p_table_col ul li h3{font-size:14px;text-align:center;margin:0;color:#767676;font-family:"Diodrum Semibold";font-weight:600}
+.p_table_col ul li div{height:100%;border:solid 1px #fff;padding:10px;position:relative;transition:all .2s linear}
+.p_table_col ul li div:hover{background:#fff;transform:scale(1.2);z-index:999;box-shadow:0 0 14px 0 rgba(0,0,0,0.05);transition:all .2s linear}
+.p_table_col ul li div span{position:absolute;left:4px;top:4px;font-size:9px;font-family:"Diodrum Semibold"}
+.p_table_col ul li div p{text-align:center;font-size:23px;margin:0;font-family:"Diodrum Medium"}
+.p_table_col ul li div p span{position:absolute;left:0;top:auto;right:0;bottom:4px;font-size:8px;display:none;font-family:"Diodrum Semibold"}
+.p_table_col ul li div:hover p span{display:block}
+.p_table_col .purple:hover p,.p_table_col .purple:hover span{color:#6f2f91}
+.p_table_col .darkgreen:hover p,.p_table_col .darkgreen:hover span{color:#07342c}
+.p_table_col .darkpurple:hover p,.p_table_col .darkpurple:hover span{color:#4d2065}
+.p_table_col .lightgreen:hover p,.p_table_col .lightgreen:hover span{color:#128370}
+.p_table_col .green:hover p,.p_table_col .green:hover span{color:#0c5b4e}
+.p_table_col .darkblue:hover p,.p_table_col .darkblue:hover span{color:#003e58}
+.p_table_col .blue:hover p,.p_table_col .blue:hover span{color:#016c9a}
+.p_table_col .pink:hover p,.p_table_col .pink:hover span{color:#af1f4f}
+.p_table_col .darkpink:hover p,.p_table_col .darkpink:hover span{color:#64122d}
+.bottom_periodictable{align-self:flex-end;width:100%;display:inline-block;margin-top:60px;padding-left:90px}
+.bottom_periodictable .bottomtext{width:100px !important}
+.bottom_periodictable .bottomtext p{font-size:14px;text-align:left;line-height:56px;font-family:"Diodrum Semibold"}
+.bottom_periodictable a{font-size:0;position:absolute;top:0;left:0;width:100%;height:100%}
+.bottom_periodictable ul{float:left;width:100%}
+.bottom_periodictable ul li{float:left;list-style:none;width:5.5%;height:auto}
+.bottom_periodictable div{height:100%;border:solid 1px #fff;padding:10px;position:relative;transition:all .2s linear}
+.bottom_periodictable div:hover{background:#fff;transform:scale(1.2);z-index:999;box-shadow:0 0 14px 0 rgba(0,0,0,0.05);transition:all .2s linear}
+.bottom_periodictable div span{position:absolute;left:4px;top:4px;font-size:9px;font-family:"Diodrum Semibold"}
+.bottom_periodictable div:hover p span{display:block}
+.bottom_periodictable p{text-align:center;font-size:23px;margin:0;font-family:"Diodrum Medium"}
+.bottom_periodictable p span{position:absolute;left:0;top:auto;right:0;bottom:4px;font-size:8px;display:none;font-family:"Diodrum Semibold"}
+.bottom_periodictable .purple:hover p,.bottom_periodictable .purple:hover span{color:#6f2f91}
+.bottom_periodictable .darkgreen:hover p,.bottom_periodictable .darkgreen:hover span{color:#07342c}
+.bottom_periodictable .darkpurple:hover p,.bottom_periodictable .darkpurple:hover span{color:#4d2065}
+.bottom_periodictable .lightgreen:hover p,.bottom_periodictable .lightgreen:hover span{color:#128370}
+.bottom_periodictable .green:hover p,.bottom_periodictable .green:hover span{color:#0c5b4e}
+.bottom_periodictable .darkblue:hover p,.bottom_periodictable .darkblue:hover span{color:#003e58}
+.bottom_periodictable .blue:hover p,.bottom_periodictable .blue:hover span{color:#016c9a}
+.bottom_periodictable .pink:hover p,.bottom_periodictable .pink:hover span{color:#af1f4f}
+.bottom_periodictable .darkpink:hover p,.bottom_periodictable .darkpink:hover span{color:#64122d}
+.darkgreen{background:#07342c;color:#fff}
+.lightgreen{background:#128370;color:#fff}
+.green{background:#0c5b4e;color:#fff}
+.blue{background:#016c9a;color:#fff}
+.darkblue{background:#003e58;color:#fff}
+.pink{background:#af1f4f;color:#fff}
+.darkpink{background:#64122d;color:#fff}
+.purple{background:#6f2f91;color:#fff}
+.darkpurple{background:#4d2065;color:#fff}
+.element_name{font-size:8px !important;color:#0c5b4e}
+.hoverelement span,.hoverelement p{color:#0c5b4e}
+.water_dropd{float:right;width:225px}
+.water_dropd .btn-secondary{background:#fff;color:#333;width:225px;height:50px;text-align:left;font-size:14px}
+.water_dropd .dropdown-menu{width:100%;margin:0;height:auto;max-height:300px;overflow-x:hidden}
+.water_dropd .dropdown-menu li{border-bottom:solid 1px #ccc;transition:.3s all linear}
+.water_dropd .dropdown-menu li a{width:100%;display:inline-block;padding:10px}
+.water_dropd .dropdown-menu li:hover{background:#128370;transition:.3s all linear}
+.water_dropd .dropdown-menu li:hover a{color:#fff}
+.water_dropd .dropdown-toggle::after{margin-top:10px;float:right}
+.water_dropd .btn-secondary:active{background:#fff}
+p.periodictablehome_desc{margin:0}
+.custom-dropdown--alt--color1 .select-convert__list{border:solid 1px #666 !important}
+.custom-dropdown--alt .select-convert__list{width:225px;float:right;height:50px !important;padding-left:18px !important}
+.custom-dropdown--alt--color1 .select-convert__list p{color:#333 !important;line-height:40px;font-size:14px;margin:0}
+.periodictable{display:flex;width:100%;padding:0;margin:100px 0 0 0}
+.periodictable li.emptycol{visibility:hidden}
+.periodictable li.emptycol a{visibility:hidden}
+.periodictable .periodic_eyebrow{padding-bottom:24px;margin:0;font-size:14px}
