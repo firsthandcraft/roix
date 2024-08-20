@@ -10,7 +10,8 @@ nav {
     z-index: 1000;
     padding: 10px 20px;
 }
-.header-logo a,.footer-logo a{
+.header-logo span,.footer-logo span{
+    cursor:pointer;
     width:150px;
 }
 
@@ -27,11 +28,12 @@ nav ul li {
     padding:0 20px;
 }
 
-nav ul li a {
+nav ul li span,nav ul li a {
+    display:block;
     font-size: 20px;
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    cursor:pointer;
 }
 
 nav.transparent {
@@ -62,9 +64,35 @@ nav.transparent {
 }
 .content-right{
     width:55%;
+    display:flex;
+    flex-direction: column;
     padding:50px 10px;
     font-size:18px;
 }
+.link {display:inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    transition: color 300ms; /* 텍스트 색상 변경에 대한 트랜지션 */
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    width: 0; /* 초기 너비 0 */
+    height: 2px; /* 라인의 두께 설정 */
+    bottom: 0;
+    left: 0;
+    background-color: #fff; /* 라인의 색상 */
+    transition: width 300ms ease-in-out; /* 너비 변화에 대한 트랜지션 */
+}
+
+.link:hover::after {
+    width: 100%; /* 호버 시 라인이 전체 너비로 확장 */
+}
+
+.link-wrap p{padding:2px 0;}
+
 footer {
     background-color: rgba(0, 0, 0, 0); /* 반투명 배경 (검은색 50% 투명도) */
     padding:20px;
@@ -84,16 +112,18 @@ footer ul {
 }
 
 footer ul li {
-    color:#fff;
-    font-size:16px;
+    color:#0000006b;
+    font-size:14px;
 }
 
 footer ul li.footer-content ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
 }
+
 .address{
+    color:#fff;
+    margin-left:14px;
     text-align: start;
     flex-direction: column;
     align-items: flex-start
@@ -107,3 +137,48 @@ footer a:hover {
     text-decoration: underline; /* 마우스 오버 시 밑줄 표시 */
 }
 
+/*  */
+/* 모달창 스타일 */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    transition:400ms;
+    opacity: 1;
+    display: flex;
+}
+
+.modal.visible {
+
+}
+
+.modal-content {
+    color:#000;
+    font-size:14px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+  
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); */
+    position: relative;
+
+}
+.modal-content h1{
+    font-weight:300;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}

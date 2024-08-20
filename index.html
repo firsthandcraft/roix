@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>roix</title>
-    <script src="js/jquery-1.12.4.js"></script>
-    <script src="js/include.js"></script>
-    <script src="js/common_ui.js?version=01.273"></script>
     <link type=" text/css" rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/selectionguide.css">
     <link rel="stylesheet" href="css/main.css">
@@ -14,14 +11,14 @@
 </head>
 <body>
     <div class="body-wrap">
+      <!-- header -->
         <header>
             <nav id="navbar">
                 <ul>
-                    <li class="header-logo"><a href="#"><img src="./img/logo.png" alt=""></a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Application</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="header-logo"><span id="close-modal"><img src="./img/logo.png" alt=""></a></li>
+                    <li><span id="about-link">About</a></li>
+                    <li><a href="https://www.dupont.com/water/products.html">Product</a></li>
+                    <!-- <li><shpan>Contact</a></li> -->
                 </ul>
             </nav>
         </header>
@@ -30,24 +27,16 @@
                     <h2>If you use water</h2>
                 </div>
                 <div class="content-right">
-                    <p>lon exchange resin Amber Series
-                        </p>
-                    <p>Reverse osmosis membrane FilmTec™" 
-                        <br> Portfolio
-                        Ultra filtration IntegraTec™
-                       </p>
-                       <p> EDI Electrochemical Products
-                        MDG 3M™ Liqui-Cel™ SP Series Membrane Contactor Cartridge
-                        System & ETC
-                        </p>
-                        <div class="img-wrap">
-                            <a href="#">
-                                <span>
-                                    <p><a href="#">- Product selection guide</a></p>
-                                    <span><img src="" alt=""></span>
-                                </span>
-                            </a>
-                        </div>
+                    <div class="link-wrap">
+                     <p><a class="link"  href="https://www.dupont.com/brands/amber-series.html">lon exchange resin Amber Series</a></p>
+                     <p> <a class="link" href="https://www.dupont.com/brands/filmtec.html">Reverse osmosis membrane FilmTec™" Portfolio</a>  
+                     <p><a class="link" href="https://www.dupont.com/brands/integratec-ultrafiltration.html">Ultra filtration IntegraTec™</a></p>  
+                     <p><a class="link" href="https://www.evoqua.com/en/evoqua/products--services/electrochemical-products/">EDI Electrochemical Products</a></p>  
+                      <p><a class="link" href="https://www.3m.com/3M/en_US/p/d/b5005009016/">MDG 3M™ Liqui-Cel™ SP Series Membrane Contactor Cartridge</a></p>
+                      <p><a class="link" href="#">System & ETC</a></p> 
+                     <p> <p><a class="link" href="https://www.dupont.com/water/periodic-table.html">-> Product selection guide</a></p></p>
+                    </div>
+                    <!-- 주기율표 -->
                         <div>
                             <div class="row periodictable">
                                 <div class="p_table_col">
@@ -57,49 +46,49 @@
                                          <div class="darkgreen">
                                             <span>1</span>
                                             <p>H<span>Hydrogen</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/hydrogen.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="blue">
                                             <span>3</span>
                                             <p>Li<span>Lithium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/lithium.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="blue">
                                             <span>11</span>
                                             <p>Na<span>Sodium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/alkali-metals.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="blue">
                                             <span>19</span>
                                             <p>K<span>Potassium	</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/alkali-metals.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="blue">
                                             <span>37</span>
                                             <p>Rb<span>Rubidium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/alkali-metals.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="blue">
                                             <span>55</span>
                                             <p>Cs<span>Cesium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/alkali-metals.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="blue">
                                             <span>87</span>
                                             <p>Fr<span>Francium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/alkali-metals.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -111,42 +100,42 @@
                                          <div class="darkblue">
                                             <span>4</span>
                                             <p>Be<span>Beryllium</span></p>
-                                            <a data-analytics="link_track" href="https://www.dupont.com/water/periodic-table/alkaline-earths.html.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="darkblue">
                                             <span>12</span>
                                             <p>Mg<span>Magneisum</span></p>
-                                            <a data-analytics="link_track" href="https://www.dupont.com/water/periodic-table/alkaline-earths.html.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="darkblue">
                                             <span>20</span>
                                             <p>Ca<span>Calcium</span></p>
-                                            <a data-analytics="link_track" href="https://www.dupont.com/water/periodic-table/alkaline-earths.html.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="darkblue">
                                             <span>38</span>
                                             <p>Sr<span>Strontium</span></p>
-                                            <a data-analytics="link_track" href="https://www.dupont.com/water/periodic-table/alkaline-earths.html.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="darkblue">
                                             <span>56</span>
                                             <p>Ba<span>Barium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/barium.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="darkblue">
                                             <span>88</span>
                                             <p>Ra<span>Radium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/radium.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -158,28 +147,28 @@
                                          <div class="green">
                                             <span>21</span>
                                             <p>Sc<span>Scandium	</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/group-iiib.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>39</span>
                                             <p>Y<span>Yttrium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/group-iiib.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="pink">
                                             <span>57</span>
                                             <p>La<span>Lanthanum</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/lanthanides.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="darkpink">
                                             <span>89</span>
                                             <p>Ac<span>Actinium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/ac-th-pa.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -191,28 +180,28 @@
                                          <div class="green">
                                             <span>22</span>
                                             <p>Ti<span>Titanium	</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/group-ivb.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>40</span>
                                             <p>Zr<span>Zirconium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/group-ivb.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>72</span>
                                             <p>Hf<span>Hafnium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/group-ivb.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>104</span>
                                             <p>Rf<span>Rutherfordium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/man-made-elements.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -224,28 +213,28 @@
                                          <div class="green">
                                             <span>23</span>
                                             <p>V<span>Vanadium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/group-vb.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>41</span>
                                             <p>Nb<span>Niobium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/group-vb.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>73</span>
                                             <p>Ta<span>Tantalum</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/group-vb.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>105</span>
                                             <p>Db<span>Dubnium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/man-made-elements.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -257,28 +246,28 @@
                                          <div class="green">
                                             <span>24</span>
                                             <p>Cr<span>Chromium	</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/chromium.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>42</span>
                                             <p>Mo<span>Molybdenum</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/molybdenum.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>74</span>
                                             <p>W<span>Tungsten</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/tungsten.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>106</span>
                                             <p>Sg<span>Seaborgium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/man-made-elements.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -290,28 +279,28 @@
                                          <div class="green">
                                             <span>25</span>
                                             <p>Mn<span>Manganese</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/manganese.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>43</span>
                                             <p>Tc<span>Technetium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/pgm.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>75</span>
                                             <p>Re<span>Rhenium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/pgm.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>107</span>
                                             <p>Bh<span>Bohrium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/man-made-elements.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -323,28 +312,28 @@
                                          <div class="green">
                                             <span>26</span>
                                             <p>Fe<span>Iron</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/iron.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>44</span>
                                             <p>Ru<span>Ruthenium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/pgm.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>76</span>
                                             <p>Os<span>Osmium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/osmium.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>108</span>
                                             <p>Hs<span>Hassium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/man-made-elements.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -356,28 +345,28 @@
                                          <div class="green">
                                             <span>27</span>
                                             <p>Co<span>Cobalt</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/cobalt.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>45</span>
                                             <p>Rh<span>Rhodium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/pgm.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>77</span>
                                             <p>Ir<span>Iridium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/pgm.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>109</span>
                                             <p>Mt<span>Meitnerium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/man-made-elements.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -389,28 +378,28 @@
                                          <div class="green">
                                             <span>28</span>
                                             <p>Ni<span>Nickel</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/nickel.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>46</span>
                                             <p>Pd<span>Palladium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/pt-pd.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>78</span>
                                             <p>Pt<span>Platinum</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/pt-pd.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li class="emptycol">
                                          <div style="background-color:#fff">
                                             <span>1</span>
                                             <p>H<span>Platinum</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/hydrogen.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -422,28 +411,28 @@
                                          <div class="green">
                                             <span>29</span>
                                             <p>Cu<span>Copper</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/copper.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>47</span>
                                             <p>Ag<span>Silver</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/silver.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>79</span>
                                             <p>Au<span>Gold</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/gold.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li class="emptycol">
                                          <div style="background-color:#fff">
                                             <span>1</span>
                                             <p>H<span>Hydrogen</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/hydrogen.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -455,28 +444,28 @@
                                          <div class="green">
                                             <span>30</span>
                                             <p>Zn<span>Zinc</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/zinc.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>48</span>
                                             <p>Cd<span>Cadmium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/heavy-metals.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="green">
                                             <span>80</span>
                                             <p>Hg<span>Mercury</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/mercury.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li class="emptycol">
                                          <div style="background-color:#fff">
                                             <span>1</span>
                                             <p>H<span>Hydrogen</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/hydrogen.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -488,42 +477,42 @@
                                          <div class="darkgreen">
                                             <span>5</span>
                                             <p>B<span>Boron</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/boron.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="lightgreen">
                                             <span>13</span>
                                             <p>Al<span>Aluminum</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/aluminum.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="lightgreen">
                                             <span>31</span>
                                             <p>Ga<span>Gallium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/heavy-metals.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="lightgreen">
                                             <span>49</span>
                                             <p>In<span>Indium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/heavy-metals.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="lightgreen">
                                             <span>81</span>
                                             <p>Tl<span>Thallium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/heavy-metals.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li class="emptycol">
                                          <div style="background-color:#fff">
                                             <span>1</span>
                                             <p>H<span>Platinum</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/hydrogen.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -535,42 +524,42 @@
                                          <div class="darkgreen">
                                             <span>6</span>
                                             <p>C<span>Carbon</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/carbon.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="darkgreen">
                                             <span>14</span>
                                             <p>Si<span>Silicon</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/silica.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="lightgreen">
                                             <span>32</span>
                                             <p>Ge<span>Germanium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/heavy-metals.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="lightgreen">
                                             <span>50</span>
                                             <p>Sn<span>Tin</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/heavy-metals.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="lightgreen">
                                             <span>82</span>
                                             <p>Pb<span>Lead</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/heavy-metals.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li class="emptycol">
                                          <div style="background-color:#fff">
                                             <span>1</span>
                                             <p>H<span>Platinum</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/hydrogen.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -582,42 +571,42 @@
                                          <div class="darkgreen">
                                             <span>7</span>
                                             <p>N<span>Nitrogen</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/nitrogen.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="darkgreen">
                                             <span>15</span>
                                             <p>P<span>Phosphorus</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/phosphorus.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="darkgreen">
                                             <span>33</span>
                                             <p>As<span>Arsenic</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/arsenic.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="lightgreen">
                                             <span>51</span>
                                             <p>Sb<span>Antimony</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/heavy-metals.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="lightgreen">
                                             <span>83</span>
                                             <p>Bi<span>Bismuth</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/heavy-metals.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li class="emptycol">
                                          <div style="background-color:#fff">
                                             <span>1</span>
                                             <p>H<span>Platinum</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/hydrogen.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -629,42 +618,42 @@
                                          <div class="darkgreen">
                                             <span>8</span>
                                             <p>O<span>Oxygen</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/oxygen.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="darkgreen">
                                             <span>16</span>
                                             <p>S<span>Sulphur</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/sulfur.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="darkgreen">
                                             <span>34</span>
                                             <p>Se<span>Selenium	</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/selenium.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="darkgreen">
                                             <span>52</span>
                                             <p>Te<span>Tellurium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/te-po.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="lightgreen">
                                             <span>84</span>
                                             <p>Po<span>Polonium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/te-po.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li class="emptycol">
                                          <div style="background-color:#fff">
                                             <span>1</span>
                                             <p>H<span>Platinum</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/hydrogen.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -676,42 +665,42 @@
                                          <div class="purple">
                                             <span>9</span>
                                             <p>F<span>Fluorine</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/halogens.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="purple">
                                             <span>17</span>
                                             <p>Cl<span>Chlorine</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/halogens.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="purple">
                                             <span>35</span>
                                             <p>Br<span>Bromine</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/halogens.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="purple">
                                             <span>53</span>
                                             <p>I<span>Iodine</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/halogens.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="purple">
                                             <span>85</span>
                                             <p>At<span>Astatine</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/halogens.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li class="emptycol">
                                          <div style="background:#fff" class="">
                                             <span>1</span>
                                             <p>H<span>Platinum</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/hydrogen.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -723,49 +712,49 @@
                                          <div class="darkpurple">
                                             <span>2</span>
                                             <p>He<span>Helium</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/noble-gases.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="darkpurple">
                                             <span>10</span>
                                             <p>Ne<span>Neon</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/noble-gases.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="darkpurple">
                                             <span>18</span>
                                             <p>Ar<span>Argon</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/noble-gases.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="darkpurple">
                                             <span>36</span>
                                             <p>Kr<span>Krypton</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/noble-gases.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="darkpurple">
                                             <span>54</span>
                                             <p>Xe<span>Xenon</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/noble-gases.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li>
                                          <div class="darkpurple">
                                             <span>86</span>
                                             <p>Rn<span>Radon</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/noble-gases.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                       <li class="emptycol">
                                          <div style="background:#fff" class="">
                                             <span>1</span>
                                             <p>H<span>Hydrogen</span></p>
-                                            <a data-analytics="link_track" href="/water/periodic-table/hydrogen.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                            <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                          </div>
                                       </li>
                                    </ul>
@@ -780,98 +769,98 @@
                                       <div class="pink">
                                          <span>58</span>
                                          <p>Ce<span>Cerium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/lanthanides.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="pink">
                                          <span>59</span>
                                          <p>Pr<span>Praseodymium	</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/lanthanides.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="pink">
                                          <span>60</span>
                                          <p>Nd<span>Neodymium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/lanthanides.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="pink">
                                          <span>61</span>
                                          <p>Pm<span>Promethium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/lanthanides.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="pink">
                                          <span>62</span>
                                          <p>Sm<span>Samarium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/lanthanides.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="pink">
                                          <span>63</span>
                                          <p>Eu<span>Europium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/lanthanides.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="pink">
                                          <span>64</span>
                                          <p>Gd<span>Gadolinium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/lanthanides.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="pink">
                                          <span>65</span>
                                          <p>Tb<span>Terbium	</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/lanthanides.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="pink">
                                          <span>66</span>
                                          <p>Dy<span>Dysprosium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/lanthanides.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="pink">
                                          <span>67</span>
                                          <p>Ho<span>Holmium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/lanthanides.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="pink">
                                          <span>68</span>
                                          <p>Er<span>Erbium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/lanthanides.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="pink">
                                          <span>69</span>
                                          <p>Tm<span>Thulium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/lanthanides.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="pink">
                                          <span>70</span>
                                          <p>Yb<span>Ytterbium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/lanthanides.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="pink">
                                          <span>71</span>
                                          <p>Lu<span>Lutetium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/group-iiib.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track" data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                 </ul>
@@ -883,113 +872,129 @@
                                       <div class="darkpink">
                                          <span>90</span>
                                          <p>Th<span>Thorium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/ac-th-pa.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="darkpink">
                                          <span>91</span>
                                          <p>Pa<span>Protactinium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/ac-th-pa.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="darkpink">
                                          <span>92</span>
                                          <p>U<span>Uranium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/uranium.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="darkpink">
                                          <span>93</span>
                                          <p>Np<span>Neptunium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/man-made-elements.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="darkpink">
                                          <span>94</span>
                                          <p>Pu<span>Plutonium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/man-made-elements.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="darkpink">
                                          <span>95</span>
                                          <p>Am<span>Americium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/man-made-elements.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="darkpink">
                                          <span>96</span>
                                          <p>Cm<span>Curium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/man-made-elements.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="darkpink">
                                          <span>97</span>
                                          <p>Bk<span>Berkelium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/man-made-elements.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="darkpink">
                                          <span>98</span>
                                          <p>Cf<span>Californium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/man-made-elements.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="darkpink">
                                          <span>99</span>
                                          <p>Es<span>Einsteinium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/man-made-elements.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="darkpink">
                                          <span>100</span>
                                          <p>Fm<span>Fermium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/man-made-elements.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="darkpink">
                                          <span>101</span>
                                          <p>Md<span>Mendelevium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/man-made-elements.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="darkpink">
                                          <span>102</span>
                                          <p>No<span>Nobelium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/man-made-elements.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                    <li>
                                       <div class="darkpink">
                                          <span>103</span>
                                          <p>Lr<span>Lawrencium</span></p>
-                                         <a data-analytics="link_track" href="/water/periodic-table/man-made-elements.html" data-title="Periodic Table Product Selection Guide">pagesource</a>
+                                         <a data-analytics="link_track"  data-title="Periodic Table Product Selection Guide">pagesource</a>
                                       </div>
                                    </li>
                                 </ul>
                              </div>
                         </div>
                 </div>
+                <div id="new-page" class="modal hidden hidden">
+                  <div class="modal-content">
+                      <h1>About Roix</h1><br>
+                      <p>당사에서는 축적된 노하우를 갖고 각종 순수제조관련 및 산업용 화학설비 그리고 수처리 
+                        기기 플랜트 분야에서 이론과 실무를 통해 ENGINEERING 회사를 운영해온 경험을 토대로 수처리 
+                        관계에서 각종 산업분야에 편리하고 유용하게 사용할 수 있는 ENGINEERING 을 응용하여 고객만족도에 
+                        기여하였습니다. (주) 로익스는 수처리기기 전문 ENGINEERING 회사로서 일반순수제조 장치(이
+                        온교환수지)는 물론 최신 설비인 RO+EDI 장치를 설계,응용 시공할 뿐만 아니라 반도체 분야의 핵심
+                        적 장치인UPW  PROJECT까지 제공하기 위해서 당사임직원들은 지식과 현장 경험을 토대로 가장 경제적이
+                        고 처리효율의 만전을 기하며 요구를 충족시켜 왔습니다. 따라서, 기본적 요구를 완전히 충족시켜 줄 
+                        수 있는 설비(SYSTEM)는 기초사항 선정, 설계 및 계산에 의해 선택 될 수 있으며 이를 반드시 첨단과학 기술
+                        과 경제성이 복합적으로 선택된 심도 있는ENGINEERING을 전제로 매진하고 있습니다.
+                     </p>
+                  </div>
+              </div>
         </div>
+       
         <footer>
             <ul>
                 <li class="footer-content footer-logo">
-                    <a href="#"><img src="./img/logo-black.png" alt=""></a>
+                    <span><img src="./img/logo-black.png" alt=""></span>
                     <ul class="address">
-                        <li>Copyrights(C) 2024 ROIX. All Rights Reserved.</li>
-                        <li>(주)로익스 주소 : 인천광역시 서구 원당대로301번길 2| 대표자명 : 박용주</li>
+                        <li>(주)로익스 : 인천광역시 서구 원당대로301번길 2 | 대표자 : 박용주</li>
                         <li>사업자등록번호 : </li>
+                        <li>Copyrights(C) 2024 ROIX. All Rights Reserved.</li>
                     </ul>
                 </li>    
                 <li class="footer-content">

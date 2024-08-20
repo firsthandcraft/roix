@@ -70,7 +70,7 @@ p.periodictablehome_desc{margin:0}
 .custom-dropdown--alt--color1 .select-convert__list{border:solid 1px #666 !important}
 .custom-dropdown--alt .select-convert__list{width:225px;float:right;height:50px !important;padding-left:18px !important}
 .custom-dropdown--alt--color1 .select-convert__list p{color:#333 !important;line-height:40px;font-size:14px;margin:0}
-.periodictable{display:flex;width:100%;padding:0;margin:100px 0 0 0}
+.periodictable{display:flex;width:100%;padding:0;margin:10px 0 0 0}
 .periodictable li.emptycol{visibility:hidden}
 .periodictable li.emptycol a{visibility:hidden}
 .periodictable .periodic_eyebrow{padding-bottom:24px;margin:0;font-size:14px}
