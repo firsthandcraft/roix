@@ -120,7 +120,11 @@ footer ul li.footer-content ul {
     list-style-type: none;
     padding: 0;
 }
-
+.footer-contact ul{
+    display:flex;
+    flex-direction: column;
+    text-align:start;
+}
 .address{
     color:#fff;
     margin-left:14px;
